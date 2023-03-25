@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="Edson Freizer Rodrigues"
+    <meta name="description" content="Coloque o seu número e uma mensagem pré-definida 3 gere um link para conversas instantâneas no WhatsApp">
+    <meta charset="UTF-8">
+    
+    <!-- Ligação com a folha de estilo -->
+    <link rel="stylesheet" href="CSS/estilo.css">
+    
+    <!-- Título da página -->
+    <title>Gerador de links</title>
+</head>
+
+<!-- Corpo da página -->
+<body>
+<!-- Cabeçalho da página-->    
+<header>      
+<!-- Imagem de topo -->
+<li><img src="Midia/whatsapp.png" alt="Whatsapp icon"></li>
+<!-- Texto de topo -->
+<h1>Gerador de links para Whatsapp</h1>        
+</header>
+
+<!-- Conteúdo da página -->
+ <main class="container">
+
+<!-- Campo: número -->                         <h2>Número de telefone</h2>
+
+<input placeholder="+Prefixo Número" type="text" name="numero" id="numero">  
+<!-- Campo: Mensagem -->       
+<h2>Mensagem</h2>  
+            
+<textarea placeholder="Mensagem" id="mensagem"></textarea>
+
+<!-- Campo:Link -->    
+<div id="linkarea"></div> 
+
+<!-- Campo:Botões --> 
+<div class="botoes">
+
+<!-- Botão 1 -->
+<button onclick="WhatsappLink()">
+Gerar link
+</button>
+
+<!-- Botão 2 -->    
+<button onclick="copiarLink()">Copiar</button>
+
+</div>   
+</main>    
+   
+</body>
+</html>
+
+<!-- Ligação com o Script -->
+<script src="JavaScript/Scripts.js">
+</script>
