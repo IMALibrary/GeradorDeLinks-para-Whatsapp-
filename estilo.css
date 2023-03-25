@@ -4,7 +4,7 @@
    margin: 0px;
 }
 body{
-    background: url('../Midia/fundo.jpg');
+    background: url('fundo.jpg');
     background-size: cover;
 }
 
